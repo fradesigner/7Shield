@@ -1,0 +1,22 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "target/root_types"
+  },
+  "include": [
+    "kibana.d.ts",
+    "typings/**/*",
+
+    "src/cli/**/*",
+    "src/dev/**/*",
+    "src/fixtures/**/*",
+
+    "x-pack/tasks/**/*",
+  ],
+  "exclude": [],
+  "references": [
+    { "path": "./src/core/tsconfig.json" },
+    { "path": "./src/plugins/usage_collection/tsconfig.json" },
+    { "path": "./x-pack/plugins/reporting/tsconfig.json" },
+  ]
+}
