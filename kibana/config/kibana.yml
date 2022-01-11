@@ -26,10 +26,10 @@
 #server.maxPayload: 1048576
 
 # The Kibana server's name.  This is used for display purposes.
-#server.name: "your-hostname"
+server.name: "kibana"
 
 # The URLs of the Elasticsearch instances to use for all your queries.
-#elasticsearch.hosts: ["http://localhost:9200"]
+elasticsearch.hosts: ["http://161.27.206.96:9201"]
 
 # Kibana uses an index in Elasticsearch to store saved searches, visualizations and
 # dashboards. Kibana creates a new index if the index doesn't already exist.
@@ -42,8 +42,8 @@
 # the username and password that the Kibana server uses to perform maintenance on the Kibana
 # index at startup. Your Kibana users still need to authenticate with Elasticsearch, which
 # is proxied through the Kibana server.
-#elasticsearch.username: "kibana_system"
-#elasticsearch.password: "pass"
+elasticsearch.username: "elastic"
+elasticsearch.password: "kibanAdmin;120"
 
 # Kibana can also authenticate to Elasticsearch via "service account tokens".
 # If may use this token instead of a username/password.
@@ -113,3 +113,7 @@
 # Specifies locale to be used for all localizable strings, dates and number formats.
 # Supported languages are the following: English - en , by default , Chinese - zh-CN .
 #i18n.locale: "en"
+
+uiSettings:
+  overrides:
+    "theme:darkMode": true

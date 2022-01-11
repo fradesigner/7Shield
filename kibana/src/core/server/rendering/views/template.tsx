@@ -36,7 +36,7 @@ export const Template: FunctionComponent<Props> = ({
         <meta charSet="utf-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge,chrome=1" />
         <meta name="viewport" content="width=device-width" />
-        <title>Elastic</title>
+        <title>7Shield</title>
         <Fonts themeVersion={themeVersion} url={uiPublicUrl} />
         {/* The alternate icon is a fallback for Safari which does not yet support SVG favicons */}
         <link rel="alternate icon" type="image/png" href={`${uiPublicUrl}/favicons/favicon.png`} />
@@ -61,7 +61,7 @@ export const Template: FunctionComponent<Props> = ({
           data-test-subj="kbnLoadingMessage"
         >
           <div className="kbnLoaderWrap">
-            <Logo />
+
             <div
               className="kbnWelcomeText"
               data-error-message={i18n('core.ui.welcomeErrorMessage', {
@@ -76,7 +76,7 @@ export const Template: FunctionComponent<Props> = ({
         </div>
 
         <div className="kbnWelcomeView" id="kbn_legacy_browser_error" style={{ display: 'none' }}>
-          <Logo />
+
 
           <h2 className="kbnWelcomeTitle">
             {i18n('core.ui.legacyBrowserTitle', {
