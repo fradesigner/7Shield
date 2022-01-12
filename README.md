@@ -15,17 +15,17 @@ Kibana is your window into the [Elastic Stack](https://www.elastic.co/products).
 
 ## Getting Started MAIA Dashboard
 
-## 1 Step
+1 Step
  git clone https://github.com/[YOUR_USERNAME]/7Shield.git kibana
  cd kibana
 -------
-## 2 Step
+2 Step
 Install dependenciesedit
 Install the version of Node.js listed in the .node-version file. This can be automated with tools such as nvm, nvm-windows or avn. As we also include a .nvmrc file you can switch to the correct version when using nvm by running:
 
  nvm use
 -------
-## 3 Step
+3 Step
 Bootstrap Kibana and install all the dependencies:
 
  yarn kbn bootstrap
@@ -35,9 +35,9 @@ Bootstrap Kibana and install all the dependencies:
 
 If you have failures during yarn kbn bootstrap you may have some corrupted packages in your yarn cache which you can clean with:
 
-## yarn cache clean
+yarn cache clean
 -------
-## 4 Step
+4 Step
 
 Configure environmental settingsedit
 Increase node.js heap sizeedit
@@ -49,7 +49,7 @@ Run the latest Elasticsearch snapshot. Specify an optional license with the --li
 yarn es snapshot --license trial
 
 -------
-## 5 Step
+5 Step
 Run Kibanaedit
 In another terminal window, start up Kibana. Include developer examples by adding an optional --run-examples flag.
 
@@ -60,14 +60,14 @@ For more information visit here
 https://www.elastic.co/guide/en/kibana/master/development-getting-started.html#_configure_environmental_settings
 
 
-### Using a Docker ElasticSearch 8
+Using a Docker ElasticSearch 8
 Installing Elasticsearch 
 https://www.elastic.co/guide/en/elasticsearch/reference/master/docker.html
 
 
 For information about building the documentation, see the README in [elastic/docs](https://github.com/elastic/docs).
 
-## Version Compatibility with Elasticsearch
+Version Compatibility with Elasticsearch
 
 Ideally, you should be running Elasticsearch and Kibana with matching version numbers. If your Elasticsearch has an older version number or a newer _major_ number than Kibana, then Kibana will fail to run. If Elasticsearch has a newer minor or patch number than Kibana, then the Kibana Server will log a warning.
 
