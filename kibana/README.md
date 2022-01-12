@@ -16,7 +16,7 @@ Kibana is your window into the [Elastic Stack](https://www.elastic.co/products).
 ## Getting Started MAIA Dashboard
 
 ## 1 Step
- git clone https://github.com/[YOUR_USERNAME]/kibana.git kibana
+ git clone https://github.com/[YOUR_USERNAME]/7Shield.git kibana
  cd kibana
 -------
 ## 2 Step
