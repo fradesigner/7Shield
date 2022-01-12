@@ -60,7 +60,7 @@ For more information visit here
 https://www.elastic.co/guide/en/kibana/master/development-getting-started.html#_configure_environmental_settings
 
 
-Using a Docker ElasticSearch 8
+Using a Docker ElasticSearch 7.16
 Installing Elasticsearch 
 https://www.elastic.co/guide/en/elasticsearch/reference/master/docker.html
 
