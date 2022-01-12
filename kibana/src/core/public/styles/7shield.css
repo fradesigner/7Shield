@@ -1,6 +1,6 @@
 .euiHeader {
-    background: #ffffff;
-    border-bottom-color: #262626;
+    background: #131519;
+    border-bottom-color: #131519;
 }
 
 .euiHeader .euiSelectableTemplateSitewide .euiFormControlLayout input {
@@ -13,7 +13,7 @@
 
 .euiHeader .euiSelectableTemplateSitewide .euiFormControlLayout:not(:focus-within) input {
     color: inherit;
-    background-color: #b7b7b7;
+    background-color: #1b1d22;
 }
 .euiHeader .euiHeaderSectionItemButton {
     color: #1e1e1e;
@@ -32,4 +32,34 @@
 .header__secondBar {
     background: #27bb91;
     border-bottom-color: #27bb91;
+}
+
+.euiButton--primary.euiButton--fill:not([class*='isDisabled']),
+.euiButton--primary.euiButton--fill:not([class*='isDisabled']):hover,
+.euiButton--primary.euiButton--fill:not([class*='isDisabled']):focus {
+    background-color: #27bb91;
+}
+
+.header__firstBar .euiHeaderSectionItemButton {
+    color: #ffffff;
+    background: #131519;
+}
+.homSolutions .euiTitle--small {
+    color: #27bb91;
+}
+
+.euiButtonEmpty--primary {
+    color: #27bb91;
+}
+
+.euiHeaderBreadcrumbs .euiBreadcrumb__content {
+    color: #DFE5EF;
+    background-color: rgb(19 21 25);
+}
+.euiIcon--small {
+    color: #27bb91;
+}
+.euiHeaderBreadcrumbs .euiBreadcrumb__content.euiLink {
+    color: #ffffff;
+    background-color: rgb(45 46 52);
 }
