@@ -15,17 +15,17 @@ Kibana is your window into the [Elastic Stack](https://www.elastic.co/products).
 
 ## Getting Started MAIA Dashboard
 
-1 Step
+1 - Step
  git clone https://github.com/[YOUR_USERNAME]/7Shield.git kibana
  cd kibana
 -------
-2 Step
+2 - Step
 Install dependenciesedit
 Install the version of Node.js listed in the .node-version file. This can be automated with tools such as nvm, nvm-windows or avn. As we also include a .nvmrc file you can switch to the correct version when using nvm by running:
 
  nvm use
 -------
-3 Step
+3 - Step
 Bootstrap Kibana and install all the dependencies:
 
  yarn kbn bootstrap
@@ -37,7 +37,7 @@ If you have failures during yarn kbn bootstrap you may have some corrupted packa
 
 yarn cache clean
 -------
-4 Step
+4 - Step
 
 Configure environmental settingsedit
 Increase node.js heap sizeedit
@@ -49,7 +49,7 @@ Run the latest Elasticsearch snapshot. Specify an optional license with the --li
 yarn es snapshot --license trial
 
 -------
-5 Step
+5 - Step
 Run Kibanaedit
 In another terminal window, start up Kibana. Include developer examples by adding an optional --run-examples flag.
 
