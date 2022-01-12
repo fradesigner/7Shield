@@ -1,4 +1,7 @@
-# Kibana
+![logo2](https://user-images.githubusercontent.com/3780435/149147258-ee820976-19a7-4ab9-a866-088555ca9037.png)
+
+
+# 7Shield by Kibana 7.16
 
 Kibana is your window into the [Elastic Stack](https://www.elastic.co/products). Specifically, it's a browser-based analytics and search dashboard for Elasticsearch.
 
@@ -9,35 +12,57 @@ Kibana is your window into the [Elastic Stack](https://www.elastic.co/products).
 - [Version Compatibility with Elasticsearch](#version-compatibility-with-elasticsearch)
 - [Questions? Problems? Suggestions?](#questions-problems-suggestions)
 
-## Getting Started
+## Getting Started MAIA Dashboard
 
-If you just want to try Kibana out, check out the [Elastic Stack Getting Started Page](https://www.elastic.co/start) to give it a whirl.
+## 1 Step
+ git clone https://github.com/[YOUR_USERNAME]/kibana.git kibana
+ cd kibana
+-------
+## 2 Step
+Install dependenciesedit
+Install the version of Node.js listed in the .node-version file. This can be automated with tools such as nvm, nvm-windows or avn. As we also include a .nvmrc file you can switch to the correct version when using nvm by running:
 
-If you're interested in diving a bit deeper and getting a taste of Kibana's capabilities, head over to the [Kibana Getting Started Page](https://www.elastic.co/guide/en/kibana/current/getting-started.html).
+ nvm use
+-------
+## 3 Step
+Bootstrap Kibana and install all the dependencies:
 
-### Using a Kibana Release
+ yarn kbn bootstrap
 
-If you want to use a Kibana release in production, give it a test run, or just play around:
+( In any other circumstance where you want to force the node_modules install step you can use: yarn kbn bootstrap --force-install ) 
 
-- Download the latest version on the [Kibana Download Page](https://www.elastic.co/downloads/kibana).
-- Learn more about Kibana's features and capabilities on the
-[Kibana Product Page](https://www.elastic.co/products/kibana).
-- We also offer a hosted version of Kibana on our
-[Cloud Service](https://www.elastic.co/cloud/as-a-service).
 
-### Building and Running Kibana, and/or Contributing Code
+If you have failures during yarn kbn bootstrap you may have some corrupted packages in your yarn cache which you can clean with:
 
-You might want to build Kibana locally to contribute some code, test out the latest features, or try
-out an open PR:
+## yarn cache clean
+-------
+## 4 Step
 
-- [CONTRIBUTING.md](CONTRIBUTING.md) will help you get Kibana up and running.
-- If you would like to contribute code, please follow our [STYLEGUIDE.mdx](STYLEGUIDE.mdx).
-- For all other questions, check out the [FAQ.md](FAQ.md) and
-[wiki](https://github.com/elastic/kibana/wiki).
+Configure environmental settingsedit
+Increase node.js heap sizeedit
+Kibana is a big project and for some commands it can happen that the process hits the default heap limit and crashes with an out-of-memory error. If you run into this problem, you can increase maximum heap size by setting the --max_old_space_size option on the command line. To set the limit for all commands, simply add the following line to your shell config: export NODE_OPTIONS="--max_old_space_size=2048".
 
-## Documentation
+## Run Elasticsearchedit
+Run the latest Elasticsearch snapshot. Specify an optional license with the --license flag.
 
-Visit [Elastic.co](http://www.elastic.co/guide/en/kibana/current/index.html) for the full Kibana documentation.
+yarn es snapshot --license trial
+
+-------
+## 5 Step
+Run Kibanaedit
+In another terminal window, start up Kibana. Include developer examples by adding an optional --run-examples flag.
+
+yarn start 
+
+-----
+For more information visit here
+https://www.elastic.co/guide/en/kibana/master/development-getting-started.html#_configure_environmental_settings
+
+
+### Using a Docker ElasticSearch 8
+Installing Elasticsearch 
+https://www.elastic.co/guide/en/elasticsearch/reference/master/docker.html
+
 
 For information about building the documentation, see the README in [elastic/docs](https://github.com/elastic/docs).
 
@@ -45,21 +70,8 @@ For information about building the documentation, see the README in [elastic/doc
 
 Ideally, you should be running Elasticsearch and Kibana with matching version numbers. If your Elasticsearch has an older version number or a newer _major_ number than Kibana, then Kibana will fail to run. If Elasticsearch has a newer minor or patch number than Kibana, then the Kibana Server will log a warning.
 
+Installing Elasticsearch 
+https://www.elastic.co/guide/en/elasticsearch/reference/master/docker.html
+
 _Note: The version numbers below are only examples, meant to illustrate the relationships between different types of version numbers._
 
-| Situation                 | Example Kibana version     | Example ES version | Outcome |
-| ------------------------- | -------------------------- |------------------- | ------- |
-| Versions are the same.    | 5.1.2                      | 5.1.2              | 💚 OK      |
-| ES patch number is newer. | 5.1.__2__                  | 5.1.__5__          | ⚠️ Logged warning      |
-| ES minor number is newer. | 5.__1__.2                  | 5.__5__.0          | ⚠️ Logged warning      |
-| ES major number is newer. | __5__.1.2                  | __6__.0.0          | 🚫 Fatal error      |
-| ES patch number is older. | 5.1.__2__                  | 5.1.__0__          | ⚠️ Logged warning      |
-| ES minor number is older. | 5.__1__.2                  | 5.__0__.0          | 🚫 Fatal error      |
-| ES major number is older. | __5__.1.2                  | __4__.0.0          | 🚫 Fatal error      |
-
-## Questions? Problems? Suggestions?
-
-- If you've found a bug or want to request a feature, please create a [GitHub Issue](https://github.com/elastic/kibana/issues/new/choose).
-  Please check to make sure someone else hasn't already created an issue for the same topic.
-- Need help using Kibana? Ask away on our [Kibana Discuss Forum](https://discuss.elastic.co/c/kibana) and a fellow community member or
-Elastic engineer will be glad to help you out.
