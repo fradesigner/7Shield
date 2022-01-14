@@ -56,6 +56,28 @@ In another terminal window, start up Kibana. Include developer examples by addin
 yarn start 
 
 -----
+
+-------
+6 - Step Add Remote Elastic Search in to Kibana
+Run Kibana with Elastic Search
+
+Update file config
+Path MacOSX - config/kibana.yml
+
+server.name: "xxx"
+elasticsearch.hosts: ["Address Remote Elastic Search "]
+elasticsearch.username: "xxx"
+elasticsearch.password: "xxx"
+
+Add default Dark Mode 
+
+uiSettings:
+  overrides:
+    "theme:darkMode": true
+
+-----
+
+
 For more information visit here
 https://www.elastic.co/guide/en/kibana/master/development-getting-started.html#_configure_environmental_settings
 
