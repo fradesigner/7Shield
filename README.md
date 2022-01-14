@@ -13,7 +13,7 @@ Kibana is your window into the [Elastic Stack](https://www.elastic.co/products).
 - [Version Compatibility with Elasticsearch](#version-compatibility-with-elasticsearch)
 - [Questions? Problems? Suggestions?](#questions-problems-suggestions)
 
-## Getting Started 7Shield Dashboard
+Getting Started 7Shield Dashboard
 
 1 - Step
  git clone https://github.com/[YOUR_USERNAME]/7Shield.git kibana
@@ -23,7 +23,7 @@ Kibana is your window into the [Elastic Stack](https://www.elastic.co/products).
 Install dependenciesedit
 Install the version of Node.js listed in the .node-version file. This can be automated with tools such as nvm, nvm-windows or avn. As we also include a .nvmrc file you can switch to the correct version when using nvm by running:
 
- nvm use
+nvm use
 -------
 3 - Step
 Bootstrap Kibana and install all the dependencies:
