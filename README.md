@@ -13,7 +13,7 @@ Kibana is your window into the [Elastic Stack](https://www.elastic.co/products).
 - [Version Compatibility with Elasticsearch](#version-compatibility-with-elasticsearch)
 - [Questions? Problems? Suggestions?](#questions-problems-suggestions)
 
-## Getting Started MAIA Dashboard
+## Getting Started 7Shield Dashboard
 
 1 - Step
  git clone https://github.com/[YOUR_USERNAME]/7Shield.git kibana
