@@ -1,0 +1,7 @@
+{
+  "prefix": "dashboard7Shield",
+  "paths": {
+    "dashboard7Shield": "."
+  },
+  "translations": ["translations/ja-JP.json"]
+}

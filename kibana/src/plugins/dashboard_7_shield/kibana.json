@@ -1,0 +1,14 @@
+{
+  "id": "dashboard7Shield",
+  "version": "1.0.0",
+  "kibanaVersion": "kibana",
+  "owner": {
+    "name": "y",
+    "githubTeam": "fradesigner"
+  },
+  "description": "Dashboard 7Shield ",
+  "server": true,
+  "ui": true,
+  "requiredPlugins": ["navigation"],
+  "optionalPlugins": []
+}
