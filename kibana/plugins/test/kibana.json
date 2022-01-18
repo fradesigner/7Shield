@@ -1,0 +1,14 @@
+{
+  "id": "test",
+  "version": "1.0.0",
+  "kibanaVersion": "kibana",
+  "owner": {
+    "name": "Fradesigner",
+    "githubTeam": ""
+  },
+  "description": "Descrizione plg",
+  "server": true,
+  "ui": true,
+  "requiredPlugins": ["navigation"],
+  "optionalPlugins": []
+}

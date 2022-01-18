@@ -39,9 +39,8 @@ types.eslint.config.js
 /x-pack/test/*/screenshots/visual_regression_gallery.html
 
 /html_docs
-.eslintcache
-/plugins/
 /data
+.eslintcache
 disabledPlugins
 webpackstats.json
 /config/*
