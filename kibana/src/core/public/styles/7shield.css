@@ -1,3 +1,12 @@
+:root {
+ --primary: #27bb91;
+ --textcolor: #1e1e1e;
+ --secondary: #333333;
+ --error: #ce0606;
+ --success: #009070;
+ --white: #ffffff;
+}
+
 .euiHeader {
     background: #131519;
     border-bottom-color: #131519;
@@ -16,40 +25,40 @@
     background-color: #1b1d22;
 }
 .euiHeader .euiHeaderSectionItemButton {
-    color: #1e1e1e;
-    background: #27bb91;
+    color: var(--textcolor);
+    background: var(--primary);
 }
 .euiAvatar--s {
-    background: white !important;
+    background: var(--white) !important;
 }
 .euiTitle--small {
-    color: #ffffff;
+    color: var(--white) ;
 }
 .homSolutions .euiTitle--small {
     color: #1d1e24;
 }
 
 .header__secondBar {
-    background: #27bb91;
-    border-bottom-color: #27bb91;
+    background: var(--primary);
+    border-bottom-color: var(--primary);
 }
 
 .euiButton--primary.euiButton--fill:not([class*='isDisabled']),
 .euiButton--primary.euiButton--fill:not([class*='isDisabled']):hover,
 .euiButton--primary.euiButton--fill:not([class*='isDisabled']):focus {
-    background-color: #27bb91;
+    background-color: var(--primary);
 }
 
 .header__firstBar .euiHeaderSectionItemButton {
-    color: #ffffff;
+    color: var(--white) ;
     background: #131519;
 }
 .homSolutions .euiTitle--small {
-    color: #27bb91;
+    color: var(--primary);
 }
 
 .euiButtonEmpty--primary {
-    color: #27bb91;
+    color: var(--primary);
 }
 
 .euiHeaderBreadcrumbs .euiBreadcrumb__content {
@@ -57,9 +66,26 @@
     background-color: rgb(19 21 25);
 }
 .euiIcon--small {
-    color: #27bb91;
+    color: var(--primary);
 }
 .euiHeaderBreadcrumbs .euiBreadcrumb__content.euiLink {
-    color: #ffffff;
+    color: var(--white) ;
     background-color: rgb(45 46 52);
+}
+
+.euiLink.euiLink--primary {
+    color: var(--primary);
+}
+.euiButtonIcon--primary {
+    color: var(--primary);
+    border-color: var(--primary);
+}
+
+.euiButton.euiButton--primary[data-test-subj="dashboardEditMode"] {
+    background: var(--white) ;
+    color: #131519;
+}
+.euiButtonIcon--subdued {
+    background: #118362;
+    color: var(--white) ;
 }
