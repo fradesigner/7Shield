@@ -77,7 +77,7 @@ export const App = ({ http, token }: { http: HttpSetup; token?: string }) => {
         template="empty"
         pageHeader={{
           iconType: 'logoElastic',
-          pageTitle: 'Welcome to 7Shield',
+          pageTitle: 'Welcome to MAIA',
         }}
       >
         <EuiPanel>
