@@ -412,7 +412,7 @@ export function SearchBar({
         compressed: true,
         className: 'kbnSearchBar',
         'aria-label': i18n.translate('xpack.globalSearchBar.searchBar.placeholder', {
-          defaultMessage: 'Search MAIA',
+          defaultMessage: 'Search MAIA ',
         }),
         placeholder: i18n.translate('xpack.globalSearchBar.searchBar.placeholder', {
           defaultMessage: 'Search MAIA',
