@@ -53,7 +53,7 @@ const loginFormMessages: Record<LogoutReason, NonNullable<LoginFormProps['messag
   LOGGED_OUT: {
     type: LoginFormMessageType.Info,
     content: i18n.translate('xpack.security.login.loggedOutDescription', {
-      defaultMessage: 'You have logged out of 7Shield.',
+      defaultMessage: 'You have logged out of MAIA.',
     }),
   },
   UNAUTHENTICATED: {

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Livello_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1795.35 423.26" style="enable-background:new 0 0 1795.35 423.26;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:#DFE5EE;}
+	.st2{fill:url(#SVGID_00000168100230895012026370000002435969485460897702_);}
+	.st3{fill:url(#SVGID_00000136412439408986030900000011188592245437576346_);}
+	.st4{fill:#222527;}
+	.st5{fill:url(#SVGID_00000008119731951077235490000017848910359413300409_);}
+</style>
+<g>
+	<g>
+		
+			<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="974.5034" y1="825.3444" x2="974.5034" y2="503.6631" gradientTransform="matrix(-1 0 0 -1 1395.6852 876.0189)">
+			<stop  offset="0" style="stop-color:#ED5856"/>
+			<stop  offset="1" style="stop-color:#CA293E"/>
+		</linearGradient>
+		<polygon class="st0" points="421.18,151.4 363.03,50.67 235.46,50.67 421.18,372.36 606.9,50.67 479.34,50.67 		"/>
+		<polygon class="st1" points="215.96,50.67 30.23,372.36 166.36,372.36 284.02,168.56 		"/>
+		<polygon class="st1" points="631.18,50.67 816.91,372.36 680.78,372.36 563.12,168.56 		"/>
+	</g>
+	<g>
+		<path class="st1" d="M1055.48,307.07H921.77l-25.42,65.61h-81.09l137.78-318.4h70.67l138.54,318.4h-81.09L1055.48,307.07z
+			 M942.36,253.93h92.53l-46.52-119.18L942.36,253.93z"/>
+		<path class="st1" d="M1303.94,372.68h-76.26V54.28h76.26V372.68z"/>
+		
+			<linearGradient id="SVGID_00000083057740852938687670000008909042046018249390_" gradientUnits="userSpaceOnUse" x1="1373.9432" y1="213.4769" x2="1720.9302" y2="213.4769">
+			<stop  offset="0" style="stop-color:#ED5856"/>
+			<stop  offset="1" style="stop-color:#CA293E"/>
+		</linearGradient>
+		<path style="fill:url(#SVGID_00000083057740852938687670000008909042046018249390_);" d="M1614.17,307.07h-133.71l-25.42,65.61
+			h-81.09l137.78-318.4h70.67l138.54,318.4h-81.09L1614.17,307.07z M1501.04,253.93h92.53l-46.52-119.18L1501.04,253.93z"/>
+	</g>
+</g>
+</svg>

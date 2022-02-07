@@ -1,0 +1,94 @@
+:root {
+ --primary: #db3445;
+ --textcolor: #1e1e1e;
+ --secondary: #333333;
+ --error: #ce0606;
+ --success: #bf1530;
+ --white: #ffffff;
+}
+
+.euiHeader {
+    background: #131519;
+    border-bottom-color: #131519;
+}
+
+.euiHeader .euiSelectableTemplateSitewide .euiFormControlLayout input {
+    box-shadow: inset 0 0 0 1px hsl(231deg 11% 13%);
+}
+
+.euiHeader .euiSelectableTemplateSitewide .euiFormControlLayout:not(:focus-within) {
+    color: rgb(29 30 36);
+}
+
+.euiHeader .euiSelectableTemplateSitewide .euiFormControlLayout:not(:focus-within) input {
+    color: inherit;
+    background-color: #1b1d22;
+}
+.euiHeader .euiHeaderSectionItemButton {
+    color: var(--textcolor);
+    background: var(--primary);
+}
+.euiAvatar--s {
+    background: var(--white) !important;
+}
+.euiTitle--small {
+    color: var(--white) ;
+}
+.homSolutions .euiTitle--small {
+    color: #1d1e24;
+}
+
+.header__secondBar {
+    background: var(--primary);
+    border-bottom-color: var(--primary);
+}
+
+.euiButton--primary.euiButton--fill:not([class*='isDisabled']),
+.euiButton--primary.euiButton--fill:not([class*='isDisabled']):hover,
+.euiButton--primary.euiButton--fill:not([class*='isDisabled']):focus {
+    background-color: var(--primary);
+}
+
+.header__firstBar .euiHeaderSectionItemButton {
+    color: var(--white) ;
+    background: #131519;
+}
+.homSolutions .euiTitle--small {
+    color: var(--primary);
+}
+
+.euiButtonEmpty--primary {
+    color: var(--primary);
+}
+
+.euiHeaderBreadcrumbs .euiBreadcrumb__content {
+    color: #DFE5EF;
+    background-color: rgb(19 21 25);
+}
+.euiIcon--small {
+    color: var(--primary);
+}
+.euiHeaderBreadcrumbs .euiBreadcrumb__content.euiLink {
+    color: var(--white) ;
+    background-color: rgb(45 46 52);
+}
+
+.euiLink.euiLink--primary {
+    color: var(--primary);
+}
+.euiButtonIcon--primary {
+    color: var(--primary);
+    border-color: var(--primary);
+}
+
+.euiButton.euiButton--primary[data-test-subj="dashboardEditMode"] {
+    background: var(--white) ;
+    color: #131519;
+}
+.euiButtonIcon--subdued {
+    background: #bf1530;
+    color: var(--white) ;
+}
+.euiHeaderLogo {
+    min-width: 150px;
+}

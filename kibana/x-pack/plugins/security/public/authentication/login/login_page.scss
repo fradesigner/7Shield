@@ -35,7 +35,7 @@
 }
 
 .loginWelcome {
-  background: url(../../../../../../src/core/public/chrome/ui/header/images/bg-7shield.jpg) no-repeat center center fixed;
+  background: url(../../../../../../src/core/public/chrome/ui/header/images/bg.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -46,6 +46,7 @@
     margin: 100px auto;
     width: 400px;
     text-align: center;
+    padding: 20px;
 }
 
 .euiButtonIcon--primary {

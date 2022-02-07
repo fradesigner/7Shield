@@ -69,7 +69,7 @@ export const Template: FunctionComponent<Props> = ({
                   'Elastic did not load properly. Check the server output for more information.',
               })}
             >
-              {i18n('core.ui.welcomeMessage', { defaultMessage: 'Loading 7Shield' })}
+              {i18n('core.ui.welcomeMessage', { defaultMessage: 'Loading MAIA' })}
             </div>
             <div className="kbnProgress" />
           </div>

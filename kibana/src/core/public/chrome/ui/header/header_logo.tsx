@@ -16,7 +16,7 @@ import { ChromeNavLink } from '../..';
 import { ElasticMark } from './elastic_mark';
 import { HttpStart } from '../../../http';
 import { LoadingIndicator } from '../loading_indicator';
-import logo from './images/7shield-logo.png';
+import logo from './images/logo-maia.svg';
 
 function findClosestAnchor(element: HTMLElement): HTMLAnchorElement | void {
   let current = element;
@@ -100,7 +100,7 @@ export function HeaderLogo({ href, navigateToApp, loadingCount$, ...observables 
         defaultMessage: 'Elastic home',
       })}
     >
-      <img src={logo} alt="Logo 7Shield" />
+      <img src={logo} alt="Logo MAIA" />
     </a>
   );
 }

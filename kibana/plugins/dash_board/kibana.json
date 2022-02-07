@@ -6,7 +6,7 @@
     "name": "Fradesigner",
     "githubTeam": ""
   },
-  "description": "Dashboard 7Shield",
+  "description": "Dashboard MAIA",
   "server": true,
   "ui": true,
   "requiredPlugins": ["navigation"],
