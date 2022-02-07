@@ -1,8 +1,9 @@
 
-![logo-login](https://user-images.githubusercontent.com/3780435/149147360-22a45bf5-1019-4a12-819c-8e8370395fbf.png)
+![logo-maia](https://user-images.githubusercontent.com/3780435/152806434-3dc26226-0c66-4157-8b8d-17d758f241c6.png)
 
 
-# 7Shield by Kibana 7.16
+
+# MAIA by Kibana 7.16
 
 Kibana is your window into the [Elastic Stack](https://www.elastic.co/products). Specifically, it's a browser-based analytics and search dashboard for Elasticsearch.
 
